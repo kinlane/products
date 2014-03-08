@@ -5,11 +5,11 @@ title: API Design
 
 <script type="text/javascript">
 
-    var $Path = 'api.json';
+    var $Path = '/swagger/products/api.json';
 
     $(function () {
         window.swaggerUi = new SwaggerUi({
-            url: "/" + $Path,
+            url: "http://products.api.apievangelist.com" + $Path,
             dom_id: "swagger-ui-container",
             supportedSubmitMethods: ['get', 'post', 'put', 'delete'],
             onComplete: function(swaggerApi, swaggerUi){
