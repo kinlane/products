@@ -1,11 +1,76 @@
 {
-	"apiVersion": "1.0",
-	"espiVersion": "1.1",
-	"apis": [
-		{
-			"name": "Products",
-			"path": "https://raw.github.com/kinlane/products/gh-pages/products",
-			"description": ""
-		}
-	]
+  "name": "API Evangelist - Products",
+  "description": "This is an demo API showing how to design, develop and deploy APIs for your products.",
+  "image": "https://s3.amazonaws.com/kinlane-productions/api-evangelist/t-shirts/KL_InApiWeTrust-1000.png",
+  "url": "http://products.apievangelist.com/",
+  "apis": [
+    {
+      "name": "Products",
+      "description": "Provides access to products available in the system.",
+      "image": "https://s3.amazonaws.com/kinlane-productions/api-evangelist/t-shirts/KL_InApiWeTrust-1000.png",
+      "human-url": "http://products.apievangelist.com/",
+      "machine-url": "http://products.api.apievangelist.com/swagger/products/products",
+      "tags": "blog, industry, analysis, news",
+      "urls": [
+        {
+          "type": "signup",
+          "url": "https://apievangelist.3scale.net/"
+        },
+        {
+          "type": "swagger",
+          "url": "http://products.api.apievangelist.com/swagger/products/products"
+        },
+        {
+          "type": "blog",
+          "url": "http://products.apievangelist.com/blog/"
+        }
+      ],
+      "contact": [
+        {
+          "type": "email",
+          "url": "info@apievangelist.com"
+        },
+        {
+          "type": "twitter",
+          "url": "https://twitter.com/kinlane/"
+        }
+      ],
+      "meta": [
+        {
+          "key": "interface-license",
+          "vallue": "CC BY 3.0"
+        },
+        {
+          "type": "pricing",
+          "url": "Free"
+        }
+      ]
+    }
+  ],
+  "include": [
+    {
+      "name": "API Evangelist",
+      "url": "http://apievangelist.com/api.json"
+    },
+    {
+      "type": "API Commons",
+      "url": "http://apicommons.org/api.json"
+    }
+  ],
+  "maintainer": [
+    {
+      "type": "Name",
+      "url": "Kin Lane"
+    },
+    {
+      "type": "email",
+      "url": "info@apievangelist.com"
+    },
+    {
+      "type": "twitter",
+      "url": "https://twitter.com/kinlane/"
+    }
+  ],
+  "tags": "api evangelist, API, Application Programming Interface, Products",
+  "modified": "04/07/2014"
 }
