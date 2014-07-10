@@ -11,10 +11,10 @@
       "name": "Products",
       "description": "Provides access to products available in the system.",
       "image": "https://s3.amazonaws.com/kinlane-productions/api-evangelist/t-shirts/KL_InApiWeTrust-1000.png",
-      "human-url": "http://products.apievangelist.com/",
-      "machine-url": "http://products.api.apievangelist.com/swagger/products/products",
+      "humanURL": "http://products.apievangelist.com/",
+      "baseURL": "http://products.api.apievangelist.com/swagger/products/products",
       "tags": "blog, industry, analysis, news",
-      "urls": [
+      "properties": [
         {
           "type": "signup",
           "url": "https://apievangelist.3scale.net/"
